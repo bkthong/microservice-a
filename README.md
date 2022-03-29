@@ -13,4 +13,5 @@ $ express microservice-a --view=pug
 $ npm install
 $ npm start
 $ curl http://localhost:3000
+$ curl http://localhost:3000/servicea
 ```
