@@ -25,3 +25,8 @@ $ curl localhost:3000/servicea
 $ docker stop test
 $ docker rm test
 ```
+
+# Notes
+- If using M1 ARM processor machine to build the image, it cannot run on fargate by default:
+   "exec format error" will appear in the logs of the task on ecs that tries to run the image
+- Easiest way is to build on amd64 and push to quay.io
