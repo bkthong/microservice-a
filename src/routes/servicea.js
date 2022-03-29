@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const ip = require('ip');
-const ipAddress = ip..address() ;
+const ipAddress = ip.address() ;
 var os = require("os");
 var hostname = os.hostname();
 /* GET users listing. */
