@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-16:latest
+FROM --platform=linux/amd64 registry.access.redhat.com/ubi8/nodejs-16:latest
 
 # Add source code to the workding directory of the image
 ADD src/ .
