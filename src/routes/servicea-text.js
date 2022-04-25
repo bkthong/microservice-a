@@ -8,7 +8,7 @@ const ipAddress = ip.address() ;
 //var hostname = os.hostname();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('Hello from servicea: ' +  ipAddress + '\n');
+  res.send('Hello from servicea (v1.2) : ' +  ipAddress + '\n');
 });
 
 module.exports = router;

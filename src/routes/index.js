@@ -6,7 +6,7 @@ const ipAddress = ip.address() ;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'microservice-a : ' + ipAddress });
+  res.render('index', { title: 'microservice-a (v1.2) : ' + ipAddress });
 });
 
 module.exports = router;
