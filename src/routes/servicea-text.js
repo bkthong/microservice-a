@@ -8,7 +8,7 @@ var os = require("os");
 var hostname = os.hostname();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('Hello from servicea (v1.4) : ' +  hostname + '\n');
+  res.send('TEST2 Hello from servicea (v1.4) : ' +  hostname + '\n');
 });
 
 module.exports = router;
