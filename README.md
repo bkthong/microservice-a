@@ -1,6 +1,9 @@
 # microservice-a
 nodejs mock microservice for demos on containers
 
+[20240203]
+- Updated code to use **port 8080** by default instead of 3000
+  so that it is in the same as microservice-b
 
 - Initial scaffolding via express generator:
 ```
