@@ -9,6 +9,8 @@ ADD src/ .
 USER root
 RUN yum -y install bind-utils iputils iproute procps-ng && yum clean all
 RUN chown -R 1001:0 .
+# To allow group root write permissions as well
+RUN chmod -R g=u .
 
 # Install dependencies as user 1001
 USER 1001 
